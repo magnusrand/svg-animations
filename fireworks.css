@@ -1,0 +1,84 @@
+svg {
+  cursor: pointer;
+}
+
+#star_smallest,
+#star_second_smallest,
+#star_middle,
+#star_second_largest,
+#star_largest {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+#circle_midddle,
+#circle_largest,
+#circle_smallest {
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+svg:hover #circle_midddle,
+svg:hover #circle_largest,
+svg:hover #circle_smallest {
+  opacity: 50;
+}
+
+svg:hover #star_smallest,
+svg:hover #star_second_smallest,
+svg:hover #star_middle,
+svg:hover #star_second_largest,
+svg:hover #star_largest {
+  opacity: 70;
+}
+
+svg:hover #star_smallest {
+  transform: translate(20%, -20%);
+}
+
+/* #star_largest {
+  transform-origin: center center;
+  animation: spin 2s linear infinite;
+} */
+
+#star_smallest {
+  transform-origin: center center;
+  animation: spin 2s linear infinite;
+}
+
+svg:hover #star_second_smallest {
+  transform: translate(-5%, -30%);
+}
+
+svg:hover #star_middle {
+  transform: translate(-20%, 8%);
+}
+
+svg:hover #star_second_largest {
+  transform: translate(-20%, -20%);
+}
+
+svg:hover #star_largest {
+  transform: translate(0, 20%);
+}
+
+svg:hover #circle_smallest {
+  transform: translate(10%, -10%);
+}
+
+svg:hover #circle_middle {
+  transform: translate(-10%, 10%);
+}
+
+svg:hover #circle_largest {
+  transform: translate(-10%, -10%);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
