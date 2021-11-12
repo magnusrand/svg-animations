@@ -1,0 +1,12 @@
+<svg width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="44" height="45" fill="#E5E5E5"/>
+<g id="fireworks" clip-path="url(#clip0_0:1)">
+<path id="Vector 1" d="M23.5 45C21.3333 26.6667 12.4 -3.20001 0 9.99999" stroke="black"/>
+<path id="Star 1" d="M23.5 40L24.0613 41.7275H25.8776L24.4082 42.7951L24.9695 44.5225L23.5 43.4549L22.0305 44.5225L22.5918 42.7951L21.1224 41.7275H22.9387L23.5 40Z" fill="#DCE025"/>
+</g>
+<defs>
+<clipPath id="clip0_0:1">
+<rect width="44" height="45" fill="white"/>
+</clipPath>
+</defs>
+</svg>

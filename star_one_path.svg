@@ -1,0 +1,20 @@
+<svg width="23" height="41" viewBox="0 0 23 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="23" height="41" fill="#E5E5E5"/>
+<g id="fireworks" clip-path="url(#clip0_0:1)">
+<rect width="44" height="45" transform="translate(0 -4)" fill="white"/>
+<path id="Vector" d="M-4.5 5.00003C-3.16667 3.6667 0.8 1.10003 6 1.50003C16.5 2.30772 19 22.5 22.5 42.5" stroke="black"/>
+<g id="stars">
+<path id="star_five" opacity="0.8" d="M21.5 37.4491L21.8368 38.4856H22.9266L22.0449 39.1261L22.3817 40.1626L21.5 39.522L20.6183 40.1626L20.9551 39.1261L20.0734 38.4856H21.1632L21.5 37.4491Z" fill="#FFF275"/>
+<path id="star_four" opacity="0.8" d="M21.5 37L21.8368 38.0365H22.9266L22.0449 38.6771L22.3817 39.7135L21.5 39.0729L20.6183 39.7135L20.9551 38.6771L20.0734 38.0365H21.1632L21.5 37Z" fill="#FFF275"/>
+<path id="star_three" opacity="0.8" d="M21.5183 37L21.8591 38.0796L22.9622 38.0796L22.0698 38.7468L22.4107 39.8264L21.5183 39.1592L20.6259 39.8264L20.9667 38.7468L20.0743 38.0796L21.1774 38.0796L21.5183 37Z" fill="#FFF275"/>
+<path id="star_two" opacity="0.8" d="M21.7389 37L22.1294 38.2016H23.3928L22.3706 38.9442L22.7611 40.1458L21.7389 39.4032L20.7168 40.1458L21.1072 38.9442L20.0851 38.2016H21.3485L21.7389 37Z" fill="#FFF275"/>
+<path id="star_one" opacity="0.8" d="M21.831 37L22.2421 38.302H23.5724L22.4961 39.1066L22.9072 40.4086L21.831 39.6039L20.7548 40.4086L21.1658 39.1066L20.0896 38.302H21.4199L21.831 37Z" fill="#FFF275"/>
+</g>
+<path id="star_one_path" d="M-4.5 5.00003C-3.16667 3.6667 0.8 1.10003 6 1.50003C16.5 2.30772 19 22.5 22.5 42.5" stroke="black"/>
+</g>
+<defs>
+<clipPath id="clip0_0:1">
+<rect width="44" height="45" fill="white" transform="translate(0 -4)"/>
+</clipPath>
+</defs>
+</svg>

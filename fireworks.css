@@ -1,84 +1,65 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 svg {
+  height: 80vh;
   cursor: pointer;
 }
 
-#star_smallest,
-#star_second_smallest,
-#star_middle,
-#star_second_largest,
-#star_largest {
-  opacity: 0;
-  transition: all 0.5s ease;
+#box {
+  background-color: blueviolet;
+  width: 50px;
+  height: 50px;
 }
 
-#circle_midddle,
-#circle_largest,
-#circle_smallest {
-  opacity: 0;
-  transition: all 1s ease;
+#box {
+  /* offset-path: path(
+    "M-4.5 5.00003C-3.16667 3.6667 0.8 1.10003 6 1.50003C16.5 2.30772 19 22.5 22.5 42.5"
+  ); */
+  offset-path: path("m388,566c0,0 -108,-563 -263,-397");
+  offset-distance: 15px;
+  animation: test2 2s infinite alternate;
 }
 
-svg:hover #circle_midddle,
-svg:hover #circle_largest,
-svg:hover #circle_smallest {
-  opacity: 50;
+#star_one {
+  offset-path: url("#vector_one");
+  animation: test2 2s infinite;
 }
 
-svg:hover #star_smallest,
-svg:hover #star_second_smallest,
-svg:hover #star_middle,
-svg:hover #star_second_largest,
-svg:hover #star_largest {
-  opacity: 70;
-}
-
-svg:hover #star_smallest {
-  transform: translate(20%, -20%);
-}
-
-/* #star_largest {
-  transform-origin: center center;
-  animation: spin 2s linear infinite;
-} */
-
-#star_smallest {
-  transform-origin: center center;
-  animation: spin 2s linear infinite;
-}
-
-svg:hover #star_second_smallest {
-  transform: translate(-5%, -30%);
-}
-
-svg:hover #star_middle {
-  transform: translate(-20%, 8%);
-}
-
-svg:hover #star_second_largest {
-  transform: translate(-20%, -20%);
-}
-
-svg:hover #star_largest {
-  transform: translate(0, 20%);
-}
-
-svg:hover #circle_smallest {
-  transform: translate(10%, -10%);
-}
-
-svg:hover #circle_middle {
-  transform: translate(-10%, 10%);
-}
-
-svg:hover #circle_largest {
-  transform: translate(-10%, -10%);
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
+@keyframes test2 {
+  0% {
+    offset-distance: 0%;
   }
-  to {
-    transform: rotate(360deg);
+  /* 70% {
+    offset-distance: 50%;
+  } */
+  100% {
+    offset-distance: 100%;
   }
+}
+
+@keyframes test {
+  0% {
+    transform: translateY(0%);
+  }
+  70% {
+    transform: translateY(-60%);
+  }
+  100% {
+    transform: translateX(-30%);
+  }
+}
+
+:root {
+  --path1: "M50,0 C100,0 100,50 50,50 C0,50 0,100 50,100 C100,100 100,150 50,150 C0,150 0,200 50,200 C100,200 100,250 50,250C0,250 0,300 50,300C100,300 100,350 50,350C0,350 0,400 50,400C100,400 100,450 50,450C0,450 0,500 50,500C100,500 100,550 50,550";
+  --path2: "M50,0 C160,0 160,50 50,50 C-40,50 -40,100 50,100 C200,100 200,150 50,150 C50,150 50,200 50,200 C50,200 50,250 50,250 C-100,250 -100,300 50,300C240,300 240,350 50,350C-150,350 -150,400 50,400 C150,400 150,450 50,450C-80,450 -80,500 50,500C160,500 160,550 50,550";
 }
